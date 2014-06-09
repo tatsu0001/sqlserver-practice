@@ -41,3 +41,5 @@ SQLServer2012ExpressEditionでxlsx(Excel2007)形式のファイルへの
 X. リンクサーバー名を右クリック -> [リンクサーバーをスクリプト化]
    でリンクサーバー作成SQLを外部ファイル化可能
 
+Y. プロバイダ文字列についての参照サイト
+   http://yoursandmyideas.wordpress.com/2011/02/05/how-to-read-or-write-excel-file-using-ace-oledb-data-provider/
