@@ -1,11 +1,11 @@
-SQLServer2012ExpressEdition‚ÅƒAƒhƒzƒbƒN•ªŽUƒNƒGƒŠ‚ð
-—LŒø‚É‚·‚é•û–@B
+SQLServer2012ExpressEditionã§ã‚¢ãƒ‰ãƒ›ãƒƒã‚¯åˆ†æ•£ã‚¯ã‚¨ãƒªã‚’
+æœ‰åŠ¹ã«ã™ã‚‹æ–¹æ³•ã€‚
 
 @see AddXlsxLinkServer.txt
-0. ‚Ü‚¸‚ÍƒŠƒ“ƒNƒT[ƒo[‚ðì¬A•ªŽUƒNƒGƒŠ‚ªŽÀs‰Â”\‚©Šm”F‚·‚éB
+0. ã¾ãšã¯ãƒªãƒ³ã‚¯ã‚µãƒ¼ãƒãƒ¼ã‚’ä½œæˆã€åˆ†æ•£ã‚¯ã‚¨ãƒªãŒå®Ÿè¡Œå¯èƒ½ã‹ç¢ºèªã™ã‚‹ã€‚
 
-1. •ªŽUƒNƒGƒŠ‚ªŽÀs‚Å‚«‚½‚ç
-   ŠÇ—ŽÒŒ ŒÀ‚ÅˆÈ‰º‚ÌSQL‚ðŽÀs‚·‚éB
+1. åˆ†æ•£ã‚¯ã‚¨ãƒªãŒå®Ÿè¡Œã§ããŸã‚‰
+   ç®¡ç†è€…æ¨©é™ã§ä»¥ä¸‹ã®SQLã‚’å®Ÿè¡Œã™ã‚‹ã€‚
   --
   sp_configure 'show advanced options', 1;
   RECONFIGURE;
@@ -15,19 +15,19 @@ SQLServer2012ExpressEdition‚ÅƒAƒhƒzƒbƒN•ªŽUƒNƒGƒŠ‚ð
   GO
   --
 
-2. ƒAƒhƒzƒbƒN•ªŽUƒNƒGƒŠ‚ðŽÀs‚·‚éB
+2. ã‚¢ãƒ‰ãƒ›ãƒƒã‚¯åˆ†æ•£ã‚¯ã‚¨ãƒªã‚’å®Ÿè¡Œã™ã‚‹ã€‚
 SELECT * FROM OpenrowSet(
-    -- ƒŠƒ“ƒNƒT[ƒo‚ÌOLE DBƒvƒƒoƒCƒ_–¼‚Æ“¯‚¶
+    -- ãƒªãƒ³ã‚¯ã‚µãƒ¼ãƒã®OLE DBãƒ—ãƒ­ãƒã‚¤ãƒ€åã¨åŒã˜
     'Microsoft.ACE.OLEDB.12.0', 
 
-    -- ƒŠƒ“ƒNƒT[ƒo‚Ìƒf[ƒ^ƒ\[ƒX‚ðDatabaseƒvƒƒpƒeƒB‚É‘Î‰ž
-    -- ƒŠƒ“ƒNƒT[ƒo‚ÌƒvƒƒoƒCƒ_[•¶Žš—ñ‚ªDatabase‚Ì‘O‚ÌƒvƒƒpƒeƒB‚É‘Î‰ž
+    -- ãƒªãƒ³ã‚¯ã‚µãƒ¼ãƒã®ãƒ‡ãƒ¼ã‚¿ã‚½ãƒ¼ã‚¹ã‚’Databaseãƒ—ãƒ­ãƒ‘ãƒ†ã‚£ã«å¯¾å¿œ
+    -- ãƒªãƒ³ã‚¯ã‚µãƒ¼ãƒã®ãƒ—ãƒ­ãƒã‚¤ãƒ€ãƒ¼æ–‡å­—åˆ—ãŒDatabaseã®å‰ã®ãƒ—ãƒ­ãƒ‘ãƒ†ã‚£ã«å¯¾å¿œ
     'Excel 12.0; HDR=YES; IMEX=1; Database=D:\Database\TestData\Book2.xlsx',
 
-    -- ”CˆÓ‚ÌƒNƒGƒŠ
+    -- ä»»æ„ã®ã‚¯ã‚¨ãƒª
     'SELECT * FROM [Book1$]'
 );
 
 
-3. ƒŠƒ“ƒNƒT[ƒo‚ª•s—v‚È‚çíœB
+3. ãƒªãƒ³ã‚¯ã‚µãƒ¼ãƒãŒä¸è¦ãªã‚‰å‰Šé™¤ã€‚
 

@@ -1,51 +1,51 @@
-SQLServer2012ExpressEdition‚ÅCSVŒ`Ž®‚Ìƒtƒ@ƒCƒ‹‚Ö‚Ì
-ƒŠƒ“ƒNƒT[ƒo‚ð’Ç‰Á‚·‚éÝ’èB
+SQLServer2012ExpressEditionã§CSVå½¢å¼ã®ãƒ•ã‚¡ã‚¤ãƒ«ã¸ã®
+ãƒªãƒ³ã‚¯ã‚µãƒ¼ãƒã‚’è¿½åŠ ã™ã‚‹è¨­å®šã€‚
 
-0. SQLServerExpressEdtion‚ÌƒCƒ“ƒXƒg[ƒ‹
-   -> SQLƒT[ƒo‚ÌƒCƒ“ƒXƒ^ƒ“ƒX‹N“®ƒ†[ƒU‚ÍCSVƒtƒ@ƒCƒ‹‚ð’u‚­ƒfƒBƒŒƒNƒgƒŠ‚Ìƒ†[ƒUƒAƒJƒEƒ“ƒg‚ðŽg—p‚·‚é‚±‚Æ
-      (SQLƒT[ƒo‚ªƒfƒBƒŒƒNƒgƒŠ‚ÌŠ—LŽÒ‚Æˆá‚¤ƒ†[ƒU‚Å‹N“®‚µ‚Ä‚¢‚éê‡A
-       ƒtƒ@ƒCƒ‹/ƒfƒBƒŒƒNƒgƒŠ‚Ö‚ÌƒAƒNƒZƒXŒ ŒÀ‚ª–â‘è‚ÅOLEDBƒvƒƒoƒCƒ_‚ª“®ì‚µ‚È‚¢‚±‚Æ‚ª‚ ‚é)
-      WindowsŒ ŒÀÝ’è‚ðn’m‚µ‚Ä‚¢‚él‚È‚ç‚»‚ÌŒÀ‚è‚Å‚Í‚È‚¢
+0. SQLServerExpressEdtionã®ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
+   -> SQLã‚µãƒ¼ãƒã®ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹èµ·å‹•ãƒ¦ãƒ¼ã‚¶ã¯CSVãƒ•ã‚¡ã‚¤ãƒ«ã‚’ç½®ããƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã®ãƒ¦ãƒ¼ã‚¶ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã‚’ä½¿ç”¨ã™ã‚‹ã“ã¨
+      (SQLã‚µãƒ¼ãƒãŒãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã®æ‰€æœ‰è€…ã¨é•ã†ãƒ¦ãƒ¼ã‚¶ã§èµ·å‹•ã—ã¦ã„ã‚‹å ´åˆã€
+       ãƒ•ã‚¡ã‚¤ãƒ«/ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã¸ã®ã‚¢ã‚¯ã‚»ã‚¹æ¨©é™ãŒå•é¡Œã§OLEDBãƒ—ãƒ­ãƒã‚¤ãƒ€ãŒå‹•ä½œã—ãªã„ã“ã¨ãŒã‚ã‚‹)
+      Windowsæ¨©é™è¨­å®šã‚’ç†ŸçŸ¥ã—ã¦ã„ã‚‹äººãªã‚‰ãã®é™ã‚Šã§ã¯ãªã„
 
-1. SQLServerManagementStdio‚ð‹N“®‚·‚éB
-   Windows”FØ‚ÅŠÇ—ŽÒŒ ŒÀ‚ÅƒƒOƒCƒ“‚·‚éB
+1. SQLServerManagementStdioã‚’èµ·å‹•ã™ã‚‹ã€‚
+   Windowsèªè¨¼ã§ç®¡ç†è€…æ¨©é™ã§ãƒ­ã‚°ã‚¤ãƒ³ã™ã‚‹ã€‚
 
-2. [ƒT[ƒoƒIƒuƒWƒFƒNƒg]->[ƒŠƒ“ƒNƒT[ƒo[]->‰EƒNƒŠƒbƒN
-   -> [V‚µ‚¢ƒŠƒ“ƒNƒT[ƒo[....] 
-   -> ˆÈ‰º‚Ì“ü—Í
-     - ƒŠƒ“ƒNƒT[ƒo[:“K“–
-     - ‚»‚Ì‘¼‚Ìƒf[ƒ^ƒ\[ƒX:ƒ`ƒFƒbƒN
-     - ƒvƒƒoƒCƒ_[:Microsoft.Jet.OLEDB.4.0
-     - »•i–¼:”CˆÓ
-     - ƒf[ƒ^ƒ\[ƒX:CSVƒtƒ@ƒCƒ‹‚ªŠi”[‚³‚ê‚½ƒfƒBƒŒƒNƒgƒŠ(¦)‚Ìƒtƒ‹ƒpƒX
-     - ƒvƒƒoƒCƒ_[•¶Žš—ñ:Text
+2. [ã‚µãƒ¼ãƒã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆ]->[ãƒªãƒ³ã‚¯ã‚µãƒ¼ãƒãƒ¼]->å³ã‚¯ãƒªãƒƒã‚¯
+   -> [æ–°ã—ã„ãƒªãƒ³ã‚¯ã‚µãƒ¼ãƒãƒ¼....] 
+   -> ä»¥ä¸‹ã®å…¥åŠ›
+     - ãƒªãƒ³ã‚¯ã‚µãƒ¼ãƒãƒ¼:é©å½“
+     - ãã®ä»–ã®ãƒ‡ãƒ¼ã‚¿ã‚½ãƒ¼ã‚¹:ãƒã‚§ãƒƒã‚¯
+     - ãƒ—ãƒ­ãƒã‚¤ãƒ€ãƒ¼:Microsoft.Jet.OLEDB.4.0
+     - è£½å“å:ä»»æ„
+     - ãƒ‡ãƒ¼ã‚¿ã‚½ãƒ¼ã‚¹:CSVãƒ•ã‚¡ã‚¤ãƒ«ãŒæ ¼ç´ã•ã‚ŒãŸãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒª(â€»)ã®ãƒ•ãƒ«ãƒ‘ã‚¹
+     - ãƒ—ãƒ­ãƒã‚¤ãƒ€ãƒ¼æ–‡å­—åˆ—:Text
    -> [OK]
-   ¦ƒtƒ@ƒCƒ‹‚Å‚Í‚È‚¢‚Ì‚Å’ˆÓ 
+   â€»ãƒ•ã‚¡ã‚¤ãƒ«ã§ã¯ãªã„ã®ã§æ³¨æ„ 
 
-3. [ƒŠƒ“ƒNƒT[ƒo[]”z‰º‚Ì2‚Å’Ç‰Á‚µ‚½ƒŠƒ“ƒNƒT[ƒo[‚Ì
-   [ƒJƒ^ƒƒO] -> [default] -> [ƒe[ƒuƒ‹] -> [ƒVƒXƒeƒ€ƒe[ƒuƒ‹]
-   ‚Åƒtƒ@ƒCƒ‹–¼‚ª•\Ž¦‚³‚ê‚é‚©Šm”FB
+3. [ãƒªãƒ³ã‚¯ã‚µãƒ¼ãƒãƒ¼]é…ä¸‹ã®2ã§è¿½åŠ ã—ãŸãƒªãƒ³ã‚¯ã‚µãƒ¼ãƒãƒ¼ã®
+   [ã‚«ã‚¿ãƒ­ã‚°] -> [default] -> [ãƒ†ãƒ¼ãƒ–ãƒ«] -> [ã‚·ã‚¹ãƒ†ãƒ ãƒ†ãƒ¼ãƒ–ãƒ«]
+   ã§ãƒ•ã‚¡ã‚¤ãƒ«åãŒè¡¨ç¤ºã•ã‚Œã‚‹ã‹ç¢ºèªã€‚
 
-4. ã‹L3‚ÅƒGƒ‰[‚É‚È‚éê‡AˆÈ‰º‚ðŽÀŽ{
-   [ƒT[ƒo[ƒIƒuƒWƒFƒNƒg] -> [ƒŠƒ“ƒNƒT[ƒo[] -> [ƒvƒƒoƒCƒ_[]
-   -> [Microsoft.Jet.OLEDB.4.0] -> ‰EƒNƒŠƒbƒN -> [ƒvƒƒpƒeƒB]
-   -> ˆÈ‰º‚ÌÝ’è
-        “®“Iƒpƒ‰ƒ[ƒ^:—LŒø‰»
-        InProcess‹–‰Â:—LŒø‰»
+4. ä¸Šè¨˜3ã§ã‚¨ãƒ©ãƒ¼ã«ãªã‚‹å ´åˆã€ä»¥ä¸‹ã‚’å®Ÿæ–½
+   [ã‚µãƒ¼ãƒãƒ¼ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆ] -> [ãƒªãƒ³ã‚¯ã‚µãƒ¼ãƒãƒ¼] -> [ãƒ—ãƒ­ãƒã‚¤ãƒ€ãƒ¼]
+   -> [Microsoft.Jet.OLEDB.4.0] -> å³ã‚¯ãƒªãƒƒã‚¯ -> [ãƒ—ãƒ­ãƒ‘ãƒ†ã‚£]
+   -> ä»¥ä¸‹ã®è¨­å®š
+        å‹•çš„ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿:æœ‰åŠ¹åŒ–
+        InProcessè¨±å¯:æœ‰åŠ¹åŒ–
    -> [OK]
 
-5. Žè‡3‚ðÄ“xŽÀs
-   •\Ž¦‚³‚ê‚½ƒtƒ@ƒCƒ‹–¼‚ð‰EƒNƒŠƒbƒN -> [ƒe[ƒuƒ‹‚ðƒXƒNƒŠƒvƒg‰»] -> [SELECT] 
-     -> [V‚µ‚¢ƒNƒGƒŠƒtƒ@ƒCƒ‹...] -> ŽÀs
-   SELECTŒ‹‰Ê‚ª•\Ž¦‚³‚ê‚é‚±‚ÆB
+5. æ‰‹é †3ã‚’å†åº¦å®Ÿè¡Œ
+   è¡¨ç¤ºã•ã‚ŒãŸãƒ•ã‚¡ã‚¤ãƒ«åã‚’å³ã‚¯ãƒªãƒƒã‚¯ -> [ãƒ†ãƒ¼ãƒ–ãƒ«ã‚’ã‚¹ã‚¯ãƒªãƒ—ãƒˆåŒ–] -> [SELECT] 
+     -> [æ–°ã—ã„ã‚¯ã‚¨ãƒªãƒ•ã‚¡ã‚¤ãƒ«...] -> å®Ÿè¡Œ
+   SELECTçµæžœãŒè¡¨ç¤ºã•ã‚Œã‚‹ã“ã¨ã€‚
 
 
-X. ƒŠƒ“ƒNƒT[ƒo[–¼‚ð‰EƒNƒŠƒbƒN -> [ƒŠƒ“ƒNƒT[ƒo[‚ðƒXƒNƒŠƒvƒg‰»]
-   ‚ÅƒŠƒ“ƒNƒT[ƒo[ì¬SQL‚ðŠO•”ƒtƒ@ƒCƒ‹‰»‰Â”\
+X. ãƒªãƒ³ã‚¯ã‚µãƒ¼ãƒãƒ¼åã‚’å³ã‚¯ãƒªãƒƒã‚¯ -> [ãƒªãƒ³ã‚¯ã‚µãƒ¼ãƒãƒ¼ã‚’ã‚¹ã‚¯ãƒªãƒ—ãƒˆåŒ–]
+   ã§ãƒªãƒ³ã‚¯ã‚µãƒ¼ãƒãƒ¼ä½œæˆSQLã‚’å¤–éƒ¨ãƒ•ã‚¡ã‚¤ãƒ«åŒ–å¯èƒ½
 
 
-Y. CSV‚âƒeƒLƒXƒgƒtƒ@ƒCƒ‹‚Ì\¬‚ðƒvƒƒoƒCƒ_‘¤‚É“`‚¦‚½‚¢ê‡
-   Schema.iniƒtƒ@ƒCƒ‹‚ðCSVƒtƒ@ƒCƒ‹‚Æ“¯‚¶ƒfƒBƒŒƒNƒgƒŠ‚É”z’u‚·‚éB
-   Schema.ini‚ÌƒtƒH[ƒ}ƒbƒg‚ÍAccessŠJ”­ŽÒƒwƒ‹ƒv‚ÌˆÈ‰º‚ÌƒZƒNƒVƒ‡ƒ“‚ªÚ‚µ‚¢B
-   [ƒeƒLƒXƒg ƒf[ƒ^ ƒ\[ƒX ƒhƒ‰ƒCƒo[‚ð‰Šú‰»‚·‚é]
+Y. CSVã‚„ãƒ†ã‚­ã‚¹ãƒˆãƒ•ã‚¡ã‚¤ãƒ«ã®æ§‹æˆã‚’ãƒ—ãƒ­ãƒã‚¤ãƒ€å´ã«ä¼ãˆãŸã„å ´åˆ
+   Schema.iniãƒ•ã‚¡ã‚¤ãƒ«ã‚’CSVãƒ•ã‚¡ã‚¤ãƒ«ã¨åŒã˜ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã«é…ç½®ã™ã‚‹ã€‚
+   Schema.iniã®ãƒ•ã‚©ãƒ¼ãƒžãƒƒãƒˆã¯Accessé–‹ç™ºè€…ãƒ˜ãƒ«ãƒ—ã®ä»¥ä¸‹ã®ã‚»ã‚¯ã‚·ãƒ§ãƒ³ãŒè©³ã—ã„ã€‚
+   [ãƒ†ã‚­ã‚¹ãƒˆ ãƒ‡ãƒ¼ã‚¿ ã‚½ãƒ¼ã‚¹ ãƒ‰ãƒ©ã‚¤ãƒãƒ¼ã‚’åˆæœŸåŒ–ã™ã‚‹]
 
